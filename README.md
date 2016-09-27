@@ -2,9 +2,11 @@
 
 Usage:
 
+    from PySweeper import PySweeper
+    
     network = "111.111"
 
-    sweeper = PySweeper.PySweeper(network)
+    sweeper = PySweeper(network)
 
     network_ips = sweeper.network()
 
